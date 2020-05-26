@@ -19,6 +19,8 @@
         "ecmaVersion": 11
     },
     "rules": {
+        "no-trailing-spaces": ["error", { "ignoreComments": true }],
+        "no-restricted-syntax": ["error", "ForInStatement", "LabeledStatement", "WithStatement"],
         "no-console": 0,
         "no-plusplus": ["error", { "allowForLoopAfterthoughts": true }]
     }
